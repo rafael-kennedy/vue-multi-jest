@@ -1,0 +1,56 @@
+{
+  "name": "solid-shelter",
+  "version": "1.0.0",
+  "description": "A housing app built on the solid platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^vue$": "vue/dist/vue.common.js"
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.vue$": "<rootDir>/node_modules/vue-jest"
+    }
+  },
+  "author": "Rafael Kennedy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-jest": "^23.6.0",
+    "css-loader": "^1.0.0",
+    "cypress": "^3.1.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mongodb-memory-server": "^2.4.3",
+    "solid-auth-client": "^2.2.6",
+    "solid-server": "^4.1.6",
+    "style-loader": "^0.23.0",
+    "vue": "^2.5.17",
+    "vue-jest": "^2.6.0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "vue-server-renderer": "^2.5.17",
+    "vue-test-utils": "^1.0.0-beta.11"
+  }
+}

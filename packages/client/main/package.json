@@ -1,0 +1,22 @@
+{
+  "name": "@solid-shelter/client-main",
+  "version": "1.0.0",
+  "description": "Solid shelter main client code",
+  "main": "index.js",
+  "jest":  {
+    "moduleDirectories": ["node_modules", "src"],
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/../../../node_modules/babel-jest",
+      ".*\\.vue$": "<rootDir>/../../../node_modules/vue-jest"
+    }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rafael Kennedy",
+  "license": "UNLICENSED"
+}

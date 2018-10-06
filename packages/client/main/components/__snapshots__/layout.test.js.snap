@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[
+  `scaffolds out page snapshot 1`
+] = `"<div><header></header> <aside></aside> <main></main> <footer></footer></div>"`
